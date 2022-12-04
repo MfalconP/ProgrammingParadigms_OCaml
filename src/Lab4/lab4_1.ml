@@ -4,7 +4,6 @@ type factory = Final_Machine of int | Machine of int * factory list;;
 
 
 
-
 (*let getTime machine =*)
 (*    match machine with*)
 (*          Machine(t,_) -> t*)
