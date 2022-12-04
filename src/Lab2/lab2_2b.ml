@@ -23,3 +23,8 @@ split3Tail [1.;2.;3.;4.;5.;6.;7.;8.;];;
 split3Tail [1];;
 
 split3Tail ['a'; 'b'; 'c'; 'd'; 'e'; 'f'; 'g'; 'h'; 'i'];;
+
+
+
+
+let x = 5;;
