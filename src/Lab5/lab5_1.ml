@@ -42,7 +42,6 @@ let rec lmbtgetlevels (n, lt) =
 
 
 
-
 (*Metoda aktualizacji odwiedzonego drzewa*)
 let rec actTree (tree, direction) =
     match (tree, direction) with
