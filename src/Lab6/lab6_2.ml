@@ -11,10 +11,11 @@ let pascalCascadeI n =
                     done;
 
                 !arr2.(!i) <- !arr2.(!i-1);
-        	    i := !i + 1;
 
                 arr1 := Array.make (!i + 1) 1;
-                arr1 := Array.copy !arr2
+                arr1 := Array.copy !arr2;
+
+                i := !i + 1
         	    done;
             !arr1
             end
@@ -22,5 +23,15 @@ let pascalCascadeI n =
 
 
 
+pascalCascadeI 1;;
+pascalCascadeI 2;;
+pascalCascadeI 3;;
+pascalCascadeI 4;;
+pascalCascadeI 5;;
 pascalCascadeI 6;;
+
+pascalCascadeI 10;;
+
+pascalCascadeI 0;;
+pascalCascadeI (-10);;
 
