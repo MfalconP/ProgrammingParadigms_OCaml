@@ -5,7 +5,6 @@ else if n = 0 then x::l1
 else List.hd l1::insert(List.tl l1, x, n-1);;
 
 
-
 let list = [1;2;3;4;5];;
 
 insert(list, 6, 0);;

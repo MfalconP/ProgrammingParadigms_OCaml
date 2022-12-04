@@ -1,4 +1,3 @@
-
 let rec differences (l1,l2) =
 if l1 = []  && l2 = [] then 0
 else if l1 = [] then 1+differences(l1, List.tl l2)

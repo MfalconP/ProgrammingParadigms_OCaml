@@ -8,7 +8,6 @@ let polishTime (para) =
 
 
 
-
 polishTime((5,15));;
 
 polishTime((13,20));;
