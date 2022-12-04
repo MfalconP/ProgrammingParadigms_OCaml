@@ -42,7 +42,6 @@ let roots (x, y) n =
 
 
 
-
 (*MODYFIKACJA*)
 let (+*) (x, y) n =
     ((!: (x,y)) ** n) *. cos(n *. (?: (x, y))),  ((!: (x,y)) ** n) *. sin(n *. (?: (x, y)));;
