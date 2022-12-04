@@ -22,7 +22,6 @@ let pascalCascadeI n =
 ;;
 
 
-
 pascalCascadeI 1;;
 pascalCascadeI 2;;
 pascalCascadeI 3;;
