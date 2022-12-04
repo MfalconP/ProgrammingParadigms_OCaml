@@ -30,3 +30,4 @@ pascalCascadeF 6;;
 pascalCascadeF 10;;
 
 pascalCascadeF 0;;
+pascalCascadeF (-10);;
