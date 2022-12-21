@@ -183,5 +183,3 @@ let (el_6, listSTR_ABS) = StrOrderedListABS.retrive listSTR_ABS;;
 
 let (el_7, listSTR_ABS) = StrOrderedListABS.retrive listSTR_ABS;;
 
-
-(*ДОПИСАТЬ ТЕСТЫ!!!*)
